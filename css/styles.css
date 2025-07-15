@@ -1199,7 +1199,7 @@ button {
 
 .modal {
   position: absolute;
-  top: 39%;
+  top: 50%;
   left: 50%;
   border-radius: 4px;
   width: 288px;
@@ -1459,7 +1459,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .modal {
-    top: 47%;
     width: 408px;
   }
 
@@ -1469,12 +1468,5 @@ button {
 
   .pop-up-field-comment {
     width: 360px;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .modal {
-    top: 38%;
-    width: 408px;
   }
 }
